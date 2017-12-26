@@ -1,0 +1,59 @@
+
+//- utils.jade
+mixin script(src)
+  script(type='text/javascript', src=src)
+
+mixin style(href)
+  link(rel='stylesheet', type='text/css', href=href)
+
+
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    +style('style.css')
+    
+    title Xavier 
+
+body
+  div.container
+    div
+    div.screen-item.screen 
+      span screen
+    dl.touche__box
+      dt.clear-item 
+        span clear
+      dt.touche__box-item 
+        span -
+      dt.touche__box-item
+        span.sign +
+      dt.touche__box-item.clearme 
+        span 7
+      dt.touche__box-item 
+        span 8
+      dt.touche__box-item 
+        span 9
+      dt.touche__box-item
+        span.sign /
+      dt.touche__box-item 
+        span 4
+      dt.touche__box-item 
+        span 5
+      dt.touche__box-item 
+        span 6
+      dt.touche__box-item
+        span.sign x
+      dt.touche__box-item 
+        span 1
+      dt.touche__box-item 
+        span 2
+      dt.touche__box-item 
+        span 3
+      dt.equal-item
+        span.sign-equal =
+      dt.touche__box-item.zero-item 
+        span 0
+      dt.touche__box-item.un-item
+        span.sign .
+  +script('script.js')

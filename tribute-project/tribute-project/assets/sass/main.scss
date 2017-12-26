@@ -1,0 +1,31 @@
+@import '_variables';
+
+@import '_bootstrap';
+
+.jumbotron {
+  margin-top: 3em;
+}
+footer {
+  margin-top: 1em;
+  a,p {
+    /*height: 1em;*/
+    /*background-color: #FFF;*/
+    display: block;
+    font-size: 1em;
+    img {
+      width: 1em;
+    }
+
+  }
+}
+ol {
+  font-size: large;
+}
+@import '_global'; //mixins
+
+/*@import 'layout/_general';*/
+/*@import 'layout/_header';*/
+/*@import 'layout/_footer';*/
+/*@import 'layout/pages/_home';*/
+/*@import 'layout/pages/_contact';*/
+
