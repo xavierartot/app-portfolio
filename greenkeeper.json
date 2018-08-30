@@ -1,0 +1,12 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "calculator-html/package.json",
+        "package.json",
+        "portfolio/package.json",
+        "tribute-project/tribute-project/package.json"
+      ]
+    }
+  }
+}
